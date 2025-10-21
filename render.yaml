@@ -1,5 +1,5 @@
 services:
-  - type: static site 
+  - type: static sites
     name: Moco 
     runtime: python
     buildCommand: pip install -r requirements.txt
