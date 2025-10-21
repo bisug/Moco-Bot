@@ -1,0 +1,35 @@
+# Async / HTTP / Scraping
+aiofiles
+aiohttp
+httpx[http2]
+certifi
+urllib3
+beautifulsoup4
+
+# Web / API Server
+flask
+python-dotenv
+
+# Telegram / Messaging / Bots
+tgcrypto
+pyrofork 
+
+# MongoDB / Database
+motor
+pymongo
+
+# Media / Image Processing
+Pillow
+pydub
+
+# Utilities / Misc
+dnspython
+requests
+typing-extensions
+pytz
+psutil
+shortuuid
+pyjwt 
+
+asyncio
+speedtest-cli 
