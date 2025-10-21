@@ -1,6 +1,9 @@
 # Python version
 FROM python:3.12
 
+# Update OS packages
+RUN apt-get update && apt-get upgrade -y && apt-get clean
+
 # Set working directory
 WORKDIR /app
 
