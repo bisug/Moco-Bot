@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: Moco 
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Moco.py
+ 
