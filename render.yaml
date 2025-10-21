@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web service 
     name: Moco 
     runtime: python
     buildCommand: pip install -r requirements.txt
