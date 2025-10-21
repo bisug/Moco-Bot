@@ -4,22 +4,6 @@ services:
     name: Moco 
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python Moco.py
-    repo:
-https://github.com/bisug/Moco-Bot    
-    branch: main
-    envVars:      
-      - key: API_ID 
-        sync: false
-      - key: API_HASH 
-        sync: false
-      - key: BOT_TOKEN 
-        sync: false
-      - key: OWNER_ID 
-        sync: false
-      - key: MONGO_URL
-        sync: false
-       - key: LOGGER_GROUP_ID        
-        sync: false        
+    startCommand: python Moco.py   
     autoDeploy: false
  
